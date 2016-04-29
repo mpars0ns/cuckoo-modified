@@ -27,6 +27,7 @@ from lib.cuckoo.common.exceptions import CuckooReportError
 from lib.cuckoo.common.objects import File
 from lib.cuckoo.common.utils import to_unicode
 from lib.cuckoo.core.database import Database
+from lib.cuckoo.common.constants import CUCKOO_ROOT
 
 log = logging.getLogger(__name__)
 
